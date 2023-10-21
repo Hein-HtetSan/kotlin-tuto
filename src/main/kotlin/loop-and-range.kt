@@ -16,4 +16,11 @@ fun main(){
 
     for(i:Char in 'a'..'z' step 2) println(i)
 
+//    names.indices
+    // Index: ___Element:___
+    for(index:Int in names.indices){
+        println("Index: $index Elemet: ${names[index]}")
+    }
+
+
 }
