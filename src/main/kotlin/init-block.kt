@@ -6,7 +6,6 @@ fun main(){
     val user3 = User3(age = 60)
 
     val user4 = User3("     ", 20)
-
 }
 
 class User3(name: String = "No Name", var age: Int){
